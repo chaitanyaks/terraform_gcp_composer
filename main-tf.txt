@@ -47,6 +47,6 @@ resource "google_sql_user" "default" {
   password = "${random_id.user-password.hex}"
 
 provisioner "local-exec" {
-        command = "pwd && hostname"
+        command = "pass the shell script or commands to import DDL DML"
 }
 }
